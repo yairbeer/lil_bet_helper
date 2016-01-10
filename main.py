@@ -13,3 +13,7 @@ print games_goals_score
 games_win_score = (games_stats.GoalsA.values > games_stats.GoalsB.values) * 1 + \
                   (games_stats.GoalsA.values < games_stats.GoalsB.values) * 2
 print games_win_score[:20]
+games_win_score_A_adv = ((games_stats.GoalsA.values + 1) > games_stats.GoalsB.values) * 1 + \
+                        ((games_stats.GoalsA.values + 1) < games_stats.GoalsB.values) * 2
+games_win_score = (games_stats.GoalsA.values > (games_stats.GoalsB.values + 1)) * 1 + \
+                  (games_stats.GoalsA.values < (games_stats.GoalsB.values + 1)) * 2
