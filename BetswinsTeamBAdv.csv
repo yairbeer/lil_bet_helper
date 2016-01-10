@@ -1,0 +1,16 @@
+TeamA,TeamB,WinAFac,TieFac,WinBFac,Year,Round
+BeiYe,MacPT,2.55,3.05,1.9,2014,29
+HapBS,MacHa,4.3,3.3,1.4,2014,29
+HapTA,HapPT,3.3,3.15,1.6,2014,29
+HapAc,HapHa,5.4,3.4,1.3,2014,29
+BneSa,HapRa,2.3,1.8,3.9,2014,29
+MacNa,MemAs,3.5,3.4,1.5,2014,29
+HapKS,MacPT,2.4,3,2,2014,33
+BeiYe,MacHa,5.4,3.4,1.3,2014,33
+BneSa,HapTA,4.3,3.3,1.4,2014,32
+MemAs,HapPT,2.4,3,2,2014,32
+MacHa,HapBS,3.45,3.2,1.55,2014,34
+HapHa,MacNa,2,3,2.4,2014,33
+MacTA,HapKS,3,3.05,1.7,2014,34
+HapKS,HapBS,2.75,3.05,1.8,2014,35
+BeiYe,MacTA,5.25,3.45,1.3,2014,35
