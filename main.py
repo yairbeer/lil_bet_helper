@@ -14,3 +14,6 @@ games_win_score_A_adv = ((games_stats.GoalsA.values + 1) > games_stats.GoalsB.va
                         ((games_stats.GoalsA.values + 1) < games_stats.GoalsB.values) * 2
 games_win_score_B_adv = (games_stats.GoalsA.values > (games_stats.GoalsB.values + 1)) * 1 + \
                         (games_stats.GoalsA.values < (games_stats.GoalsB.values + 1)) * 2
+TeamAnames = games_stats.TeamA.values
+TeamBnames = games_stats.TeamB.values
+print (TeamAnames, TeamBnames)
